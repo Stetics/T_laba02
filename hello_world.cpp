@@ -1,16 +1,16 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
 
 int main(){
 
-string @name;
+std::string @name;
 
-cout << "Name: ";
-cin >> @name << endl;
+std::cout << "Name: ";
+std::cin >> @name;
+std::cout<< endl;
 
-cout << "hello world from "<< @name << endl;
+std::cout << "hello world from "<< @name << std::endl;
 
 return 0;
 }
