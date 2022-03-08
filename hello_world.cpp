@@ -6,9 +6,9 @@ int main(){
 
 std::string @name;
 
-std::cout << "Name: ";//ввод имени
-std::cin >> @name;
-std::cout<< endl;
+std::cout << "Name: ";
+std::cin >> @name;//ввод
+std::cout<< endl;//переход
 
 std::cout << "hello world from "<< @name << std::endl;//вывод
 
